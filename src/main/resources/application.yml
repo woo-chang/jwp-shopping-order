@@ -1,0 +1,13 @@
+spring:
+  thymeleaf:
+    cache: true
+
+  servlet:
+    request:
+      charset: UTF-8
+
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
