@@ -31,6 +31,8 @@ public class WebMvcConfig implements WebMvcConfigurer {
                         "https://afds4567.github.io/"
                 )
                 .allowedMethods("*")
+                .allowedHeaders("*")
+                .exposedHeaders("*")
                 .allowCredentials(true)
                 .maxAge(86400);
     }
